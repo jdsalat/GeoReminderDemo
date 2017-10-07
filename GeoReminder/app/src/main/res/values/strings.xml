@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">GeoReminder</string>
+
+    <string name="hello_world">Enter Search Location</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="no_connection">You are not connected to the Internet</string>
+    <string name="no_connection_title">Connection Error</string>
+    <string name="settings">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_home">Home</string>
+    <string name="api_key">AIzaSyACTO-Ak_7HOE5E9xrEKZkr-xr3H5TmU5Y</string>
+    <string name="no_profile_to_display">You have not created any geo reminder yet!</string>
+    <!-- Labels -->
+    <string name="Label.Name">Name</string>
+    <string name="Label.Latitude">Latitude</string>
+    <string name="Label.Address">Address</string>
+    <string name="Label.Longitude">Longitude</string>
+    <string name="Label.Radius">Reminder distance </string>
+    <string name="Lable.Away"> Km away</string>
+    <string name="Label.AddGeofence">Add a Geofence</string>
+    <string name="Label.EmptyState">You haven\'t created any geofences yet. Tap the plus button to create one.\n\n\nWill we ever get there?! :]</string>
+    <string name="Label.Note" formatted="false">Notes</string>
+    <!-- Hints -->
+    <string name="Hint.Name">Name for the geofence</string>
+    <string name="Hint.Latitude" formatted="false">Latitude (%3.1f\u00B0 to %3.1f\u00B0)</string>
+    <string name="Hint.Longitude" formatted="false">Longitude (%4.1f\u00B0 to %4.1f\u00B0) </string>
+    <string name="Hint.Radius" formatted="false">Radius (in km)</string>
+    <string name="Hint.Notes" formatted="false">Notes (Optional)</string>
+
+    <!-- Units -->
+    <string name="Units.Degrees">\u00B0</string>
+    <string name="Units.Kilometers">km</string>
+
+    <string name="AreYouSure">Are you sure?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Add">Add</string>
+    <string name="Cancel">Cancel</string>
+
+    <!-- Toast -->
+    <string name="Toast.Validation">Please enter valid data for all fields</string>
+    <string name="ToastError">There was an error. Please try again.</string>
+
+    <!-- Button -->
+    <string name="Button.DeleteGeofence">DELETE</string>
+    <string name="remove_item">Delete</string>
+    <!-- Notification -->
+    <string name="Notification.Title">Reminder</string>
+    <string name="Notification.Text">We\'re at %1$s!!!</string>
+    <string name="deleteToast">removed successfully.</string>
+    <string name="addToast">added successfully.</string>
+
+    <!--Dialog-->
+    <string name="please_wait">Please Wait....</string>
+    <string name="title_activity_setting">Settings</string>
+
+    <!-- Setting Screen -->
+    <string name="notification_txt">Notification</string>
+    <string name="sound_txt">Sound</string>
+    <string name="vibrate_txt">Vibrate</string>
+    <string name="geo_fencing">Add Reminder</string>
+
+    <!--Autotext-->
+    <string name="autocomplete_hint">Enter place name or address</string>
+    <string name="version">Version 1.0.0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Lable.ReminderName">Name:</string>
+
+
+</resources>

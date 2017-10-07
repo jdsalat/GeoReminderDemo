@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.georeminder.src.fragments.GeoReminderDetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin.Half"
+                    android:text="@string/Label.Address"
+                    android:textColor="@color/ColorPrimaryDark"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_reminder_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Margin.Half"
+                    android:text="@string/Lable.ReminderName" />
+            </LinearLayout>
+
+            <View
+                style="@style/Divider.Horizontal.Setting"
+                android:layout_marginTop="@dimen/Margin.Half" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin.Half"
+                    android:text="@string/Label.Note"
+                    android:textColor="@color/ColorPrimaryDark"
+                    android:textSize="18sp" />
+
+                <!--<TextView
+                    android:id="@+id/tv_reminder_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/Margin.Half"
+                    android:text="@string/Lable.ReminderName" />-->
+
+                <view xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/tv_reminder_notes"
+                    style="@style/View.NoteText"
+                    class="com.georeminder.src.utils.LineEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:capitalize="sentences"
+                    android:fadingEdge="vertical"
+                    android:gravity="top"
+                    android:hint="@string/Hint.Notes"
+                    android:padding="5dp"
+                    android:scrollbars="vertical" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
